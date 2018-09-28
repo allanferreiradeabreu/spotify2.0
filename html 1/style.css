@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+    /* Apenas tags */
+nav {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    
+}
+    
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -25px;
+    
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+h1{
+    font-size: 68px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+header{
+    background-image: url(bkg1.jpg);
+    background-size: 100%;
+    padding-bottom: 200px;
+    background-repeat:
+}
+    /* Apenas classes */
+.logo{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.botao1{
+    background-color: #1db954;
+    border: 1px solid gray;
+    margin-left: 340px;
+    margin-top: 110px;
+    width: 320px;
+    height: 50px;
+    border-radius: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.botao2{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    margin-left: 10px;
+    width: 320px;
+    height: 50px;
+    border-radius: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    /* section1 */
+.sect1 {
+    text-decoration-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-clip: content-box;
+}
+.sect1 p {
+    margin-top: 25px;
+    font-weight: bold;
+}
+.image{
+    width: 38%;
+}
+.image1{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 125px;   
+}
+.parte1 p, h2,h3 {
+    
+    margin-top: 30px;
+        
+}
+    /* section2 */ 
+.sect2{
+    background-image: url(bkg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-clip: content-box;
+    height: 100vh;
+    margin-top: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.textod{
+    margin-right: 250px;
+}
+    /* section3 */
+.sect3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55vh;
+    border: 2px solid blue
+}
+.dispositivos1{
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    margin-left: 110px;
+    border: 2px solid red
+    
+}
+.lista1 li{
+    color:black;
+    font-size:15px;
+    font-weight: bold;
+    list-style: disc;
+    margin-top:30px;
+   justify-content: flex-end;
+}
+.lista2 li{
+    color: #008005;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: disc;
+    margin-top: 30px;    
+
+}
+
+
+
+
